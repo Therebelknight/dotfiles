@@ -14,10 +14,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 yay -Syyu - <pkglist_aur.txt
 yay -Syyu - <pkglist.txt
 
-#sddm theme
-cd ~
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
-
 #move all the configs
 cd ~/.config
 cp ~/dotfiles/config/ .
@@ -41,5 +37,9 @@ wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh |
 echo 'alias ls=eza' >>.zshrc
 echo 'cat ~/.cache/wal/sequences' >>.zshrc
 echo 'alias waypaper=waypaper --folder ~/Wallpapers/' >>.zshrc
+
+#sddm theme
+cd ~
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
 
 reboot
