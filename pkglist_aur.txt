@@ -1,0 +1,13 @@
+ags-hyprpanel-git
+dracula-cursors-git
+dracula-gtk-theme-full
+dracula-icons-theme
+git-credential-manager
+grimblast-git
+matugen-bin
+python-pywal16
+python-pywalfox
+todo
+ulauncher-git
+waypaper
+yay-bin
